@@ -1,0 +1,277 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.montserrat-alternates-thin {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+.vien{
+	min-height: 200px;
+	border: 2px solid saddlebrown;
+	padding: 30px;
+	position: relative;overflow: hidden;}
+
+.vien:hover .icon-2{
+	top: 30%;
+}
+
+.text-do{
+	color: darkred;
+}
+
+.text-nau{
+	color: saddlebrown; text-shadow: 1px 1px brown;
+}
+
+.font-size{
+	font-size: 140%
+}
+
+.text-den{
+	color: #252525 ;
+}
+
+.text-dens{
+	color: white ; text-shadow: 1px 1px grey;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    list-style: none;
+}
+
+header{
+	width: 100% ; height: 80px; background-color: #FFFFFF; 
+}	
+
+.menu{ padding-top: 17px; padding-right: 10px; padding-left: 10px; font-size: 20px}
+.menu ul {	
+	margin: 10px; padding: 0; list-style: none; display: flex; font-family: "Montserrat Alternates", sans-serif;
+}
+.menu ul li a{
+	padding: 10px 30px; text-decoration: none; color:#000000
+}
+.menu ul li a:hover{
+	background-color: saddlebrown; color: white; border-radius: 20px;
+}
+
+.logo{
+	width: 30%; min-height: 10px; margin-top: 15px;
+	}
+
+
+.img-100{
+	width: 30%; height: auto; margin-top: 15px;
+}
+
+.banner{
+	width: 100% ; min-height: 300px; 
+}
+
+main{
+	width: 100%; min-height: 500px; 
+}
+
+aside{
+	width: 30%; padding: 15px; background-color: aqua; min-height: 500px
+}
+
+.title1{ text-align: center; border-bottom: 4px solid saddlebrown ;font-size: 50px; margin: 30px; font-family: "Montserrat Alternates", sans-serif;}
+.title4{ text-align: center; border-bottom-style: groove ;font-size: 40px; font-family: "Montserrat Alternates", sans-serif;}
+.title5{ text-align: center; border-bottom-style: groove ;font-size: 20px; font-family: "Montserrat Alternates", sans-serif;}
+.title6{ text-align: center; border-bottom-style: groove ;font-size: 50px; font-family: "Montserrat Alternates", sans-serif;}
+
+
+.content{
+	width: 70%; padding: 15px; background-color: antiquewhite; min-height: 500px
+}
+
+#slide .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slide .owl-dots .owl-dot span {
+width: 12px;
+height: 12px; 	
+}
+#slide .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slide .owl-nav [class*='owl-'] {
+font-size:120px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: whitesmoke;
+}
+#slide .owl-nav .owl-next{ position:absolute; right:5%;}
+#slide .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slide .owl-nav [class*='owl-']:hover {
+background:none;border: none;
+color:saddlebrown;
+text-decoration: none;
+}
+
+.icon-2{
+	position: absolute;width: 80%;height: 40px;left: 10%;top: -15%;display: flex;justify-content: space-around;transition: all 1s
+}
+.icon-2 a {
+	width: 40px;background-color: white;border-radius: 50%;display: flex;justify-content: center;align-items: center;text-decoration: none;color: saddlebrown
+		
+}
+.icon-2 a:hover{
+	background-color: saddlebrown;color: white}
+
+.icon-3{ cursor: pointer;
+	margin: 20px 15px; 
+    position: relative;
+	transition: all 1s;
+}
+
+.banner2{
+	width: 100%; max-height: 450px; position: relative;}
+
+#feature{
+	width: 100%; min-height: 800px; background-image: url("../images/1531.jpg"); background-repeat: no-repeat; background-size: cover; background-position: bottom center;
+}
+
+#feature a{
+	text-decoration: none; color: darkred; 
+}
+
+#feature a:hover{
+	color: red
+}
+
+.pt-30{
+	padding-top: 20px
+}
+
+.pt-50{
+	padding-top: 50px
+}
+
+.pl-20{
+	padding-left: 80px
+}
+
+.pl-10{
+	padding-left: 20px
+}
+
+.pr-20{
+	padding-right: 20px
+}
+
+
+.vien-trang{
+	width: 100%; min-height: 100px; border: 2px solid white; padding: 20px; border-radius: 150px;
+}
+
+.vien-trang a:hover{
+	
+}
+
+.bottom-text{
+	 text-align: center; font-size: 15px; margin: 20px; font-family: "Montserrat Alternates", sans-serif;
+}
+
+footer {
+	width: 100%; 
+	height: 300px; 
+	background-color: #E4E4E4; 
+	margin: auto 0;
+	display: flex;
+	font-family: "Poppins", sans-serif;
+	flex-direction: row ;
+	justify-content: center ;
+	place-items: center ; 
+	align-content: center;
+}
+
+.padding{	
+	padding-left: 80px; font-size: 48px; padding-top: 1px; display:flex;
+}
+.padding2{
+	padding-left: 20px; font-size: 48px; margin-top: -1px; display:flex;
+}
+#contact{
+	width: 100%; min-height: 300px; background-image: url("../images/bg5.jpg"); background-repeat: no-repeat; background-size: cover; background-position: bottom center;
+
+}
+
+#modudesign p a b:hover{
+	color: #C86C2B; text-decoration: none; 
+}
+
+.align-text{
+	padding: 20px 40px 20px 0;
+}
+
+#contact{ position: relative;
+	
+}
+
+.contact{
+	position: absolute;
+	width: 24%;
+    left: 0;
+	right: 0;
+	margin: 0 auto;
+	top: 5%
+}
+
+
+.form{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 10px;
+	padding-bottom: 15px;
+	width: 100%;
+}
+.form input{
+	padding: 8px ;
+	width: 100%;
+	color: black;
+	background: #B1B1B1;
+}
+.form textarea{
+	padding: 8px ;
+	width: 100%;
+	background: #B1B1B1; 
+}
+.form-control{
+	background-color:#F87503;
+	color: white;
+	border-radius: 5px;
+	border: hidden;
+	
+	
+}
+.vien3{
+	width: 100%;
+	border: 1px solid grey;
+	box-shadow: 2px 2px 10px 0 grey;
+	padding: 20px ;
+}
+
+
+.btn {
+    cursor:pointer;
+    border: 50px;
+	border-radius: 5px;
+    background: grey !important;
+	color:white !important;
+	
+}
+
+input.btn[type="submit"]:hover {
+    background: #278A0F !important;
+	color: white !important;
+}
+
+::placeholder{
+	color: white;
+}
+
+
+
